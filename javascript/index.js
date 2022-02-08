@@ -78,8 +78,8 @@ async function makeBroccoli() {
   document.querySelector('#broccoli').innerHTML +=`<li>${await obtainInstruction('broccoli',3)}</li>`
   document.querySelector('#broccoli').innerHTML +=`<li>${await obtainInstruction('broccoli',4)}</li>`
   document.querySelector('#broccoli').innerHTML +=`<li>${await obtainInstruction('broccoli',5)}</li>`
-  
 }
+makeBroccoli();
 
 // Bonus 2 - Promise all
 // ...
